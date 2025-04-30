@@ -42,7 +42,7 @@ const Home = () => {
         {/* Left Side: Image + Welcome + Bio */}
         <div className="flex flex-col items-start">
           <img
-            src="/moustafa.jpg"
+            src="/moustafa.png"
             alt="Moustafa Ragheb"
             className="w-36 h-36 rounded-full border-4 border-yellow-400 shadow-2xl mb-6"
           />
