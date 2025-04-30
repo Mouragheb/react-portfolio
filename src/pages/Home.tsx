@@ -12,7 +12,7 @@ const Home = () => {
       {/* Top Right Icons */}
       <div className="flex justify-end space-x-6 text-2xl z-10 mt-10">
         <a
-          href="mailto:mousragheb@gmail.com"
+          href="mailto:mousragheb@outlook.com"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-yellow-400 transition animate-float-x"
