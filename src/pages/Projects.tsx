@@ -8,7 +8,7 @@ const projects = [
     tech: ['React', 'JavaScript', 'Tailwind', 'Node.js', 'MongoDB'],
     codeLink: [
       { label: 'Frontend', url: 'https://github.com/Mouragheb/RTM_frontend' },
-      { label: 'Backend', url: 'https://github.com/Mouragheb/RTM_backendi' },
+      { label: 'Backend', url: 'https://github.com/Mouragheb/RTM_backend' },
     ],
     liveLink: 'https://retaskman.com',
   },
