@@ -68,7 +68,7 @@ const Home = () => {
 
       {/* Footer */}
       <div className="text-right text-sm text-gray-500 mt-20 z-10">
-        © {new Date().getFullYear()} moustafaragheb.dev
+        © {new Date().getFullYear()} moustafa-ragheb.com
       </div>
     </section>
   );
