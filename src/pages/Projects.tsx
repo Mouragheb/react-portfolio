@@ -26,9 +26,9 @@ const projects: Project[] = [
     highlights: [
       "Unified platform experience across all apps under one login",
       "Multi-business architecture (separate data, settings, and workflows per business)",
-      "Consistent UI/UX patterns across products for a smooth learning curve",
+      "Consistent product architecture across frontend, backend services, and shared workflows",
       "Subscription-based access with plan limits based on business profiles",
-      "Cross-app workflows (events → invitations via BrandMail, invoices → payments, etc.)",
+      "Cross-app workflows spanning services, data, and user flows (events → invitations, invoices → payments)",
     ],
     tech: [
       "React",
@@ -247,8 +247,8 @@ const Projects = () => {
             Projects
           </h2>
           <p className="mt-4 max-w-3xl mx-auto text-slate-200">
-            Production SaaS systems and real-business software—built with React + TypeScript, modern UI patterns,
-            and strong ownership from architecture to delivery.
+            Production SaaS systems and real-business software—designed and built end-to-end,
+            spanning frontend interfaces, backend services, integrations, and deployment-ready workflows.
           </p>
         </div>
 
@@ -256,12 +256,12 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-7">
           {projects.map((p) => (
             <article
-            key={p.id}
-            id={p.id}
-            className={`rounded-2xl border border-white/10 bg-white/5 p-6 md:p-7 shadow-[0_0_0_1px_rgba(255,255,255,0.02)] hover:bg-white/10 transition
+              key={p.id}
+              id={p.id}
+              className={`rounded-2xl border border-white/10 bg-white/5 p-6 md:p-7 shadow-[0_0_0_1px_rgba(255,255,255,0.02)] hover:bg-white/10 transition
               ${p.id === "ybs-platform" ? "md:col-span-2" : ""}
             `}
-          >
+            >
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <h3 className="text-xl md:text-2xl font-semibold text-white">
@@ -292,7 +292,7 @@ const Projects = () => {
               {/* Tech */}
               <div className="mt-5">
                 <div className="text-xs uppercase tracking-wider text-slate-400 mb-2">
-                  Tech Stack
+                  Stack & Architecture
                 </div>
                 <div className="flex flex-wrap gap-2">
                   {p.tech.map((t, i) => (

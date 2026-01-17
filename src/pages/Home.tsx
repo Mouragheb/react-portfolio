@@ -53,7 +53,7 @@ const Home = () => {
 
             <div>
               <p className="text-sm uppercase tracking-[0.22em] text-slate-300">
-                Senior Frontend Engineer • SaaS Builder
+                Full-Stack Engineer • SaaS Platform Builder
               </p>
               <h1 className="mt-1 text-4xl md:text-5xl font-semibold leading-tight">
                 Moustafa Ragheb
@@ -62,12 +62,14 @@ const Home = () => {
           </div>
 
           <p className="mt-8 text-lg leading-relaxed text-slate-200 max-w-xl">
-            I build production-grade <span className="font-semibold text-white">React + TypeScript</span> SaaS products
-            with strong UI/UX, clean architecture, and real business workflows.
-            My work includes multi-app platforms, payments, authentication, dashboards, and customer-facing experiences.
+            I build production-grade SaaS products end-to-end — from{" "}
+            <span className="font-semibold text-white">frontend interfaces</span>{" "}
+            to <span className="font-semibold text-white">backend services</span>,{" "}
+            payments, authentication, integrations, and deployment-ready workflows.
+            My work includes multi-app platforms, real business automation, dashboards, and customer-facing experiences.
           </p>
 
-          {/* CTAs */}
+          {/* CTAs (Resume removed) */}
           <div className="mt-8 flex flex-wrap gap-3">
             <a
               href="/projects"
@@ -76,10 +78,10 @@ const Home = () => {
               View Projects
             </a>
             <a
-              href="/resume"
+              href="/contact"
               className="inline-flex items-center justify-center rounded-xl border border-white/15 bg-white/5 px-5 py-3 font-semibold text-white hover:bg-white/10 transition"
             >
-              View Resume
+              Contact
             </a>
           </div>
 
@@ -87,11 +89,11 @@ const Home = () => {
           <div className="mt-8 grid grid-cols-2 gap-3 text-sm text-slate-200">
             <div className="rounded-xl border border-white/10 bg-white/5 px-4 py-3">
               <div className="text-slate-300">Focus</div>
-              <div className="font-semibold text-white">Frontend Ownership</div>
+              <div className="font-semibold text-white">End-to-End Delivery</div>
             </div>
             <div className="rounded-xl border border-white/10 bg-white/5 px-4 py-3">
               <div className="text-slate-300">Stack</div>
-              <div className="font-semibold text-white">React • TS • Tailwind</div>
+              <div className="font-semibold text-white">React • Node • Cloud • APIs</div>
             </div>
           </div>
         </div>
@@ -117,7 +119,8 @@ const Home = () => {
                   <span className="text-slate-400 group-hover:text-cyan-300 transition">View →</span>
                 </a>
               </li>
-              {/* Keep Gyros Hero */}
+
+              {/* Gyros Hero */}
               <li>
                 <a
                   href="https://gyrosheros.com"
@@ -127,6 +130,7 @@ const Home = () => {
                   <span className="text-slate-400 group-hover:text-cyan-300 transition">View →</span>
                 </a>
               </li>
+
               <li className="pt-1">
                 <div className="text-xs uppercase tracking-wider text-slate-400 px-1">
                   YBS Apps
@@ -134,35 +138,50 @@ const Home = () => {
               </li>
 
               <li>
-                <a href="/projects#cashlytic" className="group flex items-center justify-between rounded-xl border border-white/10 bg-white/5 px-4 py-3 hover:bg-white/10 transition">
+                <a
+                  href="/projects#cashlytic"
+                  className="group flex items-center justify-between rounded-xl border border-white/10 bg-white/5 px-4 py-3 hover:bg-white/10 transition"
+                >
                   <span className="font-medium">Cashlytic</span>
                   <span className="text-slate-400 group-hover:text-cyan-300 transition">View →</span>
                 </a>
               </li>
 
               <li>
-                <a href="/projects#brandmail" className="group flex items-center justify-between rounded-xl border border-white/10 bg-white/5 px-4 py-3 hover:bg-white/10 transition">
+                <a
+                  href="/projects#brandmail"
+                  className="group flex items-center justify-between rounded-xl border border-white/10 bg-white/5 px-4 py-3 hover:bg-white/10 transition"
+                >
                   <span className="font-medium">BrandMail</span>
                   <span className="text-slate-400 group-hover:text-cyan-300 transition">View →</span>
                 </a>
               </li>
 
               <li>
-                <a href="/projects#ybs-meet" className="group flex items-center justify-between rounded-xl border border-white/10 bg-white/5 px-4 py-3 hover:bg-white/10 transition">
+                <a
+                  href="/projects#ybs-meet"
+                  className="group flex items-center justify-between rounded-xl border border-white/10 bg-white/5 px-4 py-3 hover:bg-white/10 transition"
+                >
                   <span className="font-medium">YBS Meet</span>
                   <span className="text-slate-400 group-hover:text-cyan-300 transition">View →</span>
                 </a>
               </li>
 
               <li>
-                <a href="/projects#ybs-esign" className="group flex items-center justify-between rounded-xl border border-white/10 bg-white/5 px-4 py-3 hover:bg-white/10 transition">
+                <a
+                  href="/projects#ybs-esign"
+                  className="group flex items-center justify-between rounded-xl border border-white/10 bg-white/5 px-4 py-3 hover:bg-white/10 transition"
+                >
                   <span className="font-medium">YBS eSign</span>
                   <span className="text-slate-400 group-hover:text-cyan-300 transition">View →</span>
                 </a>
               </li>
 
               <li>
-                <a href="/projects#eventpro" className="group flex items-center justify-between rounded-xl border border-white/10 bg-white/5 px-4 py-3 hover:bg-white/10 transition">
+                <a
+                  href="/projects#eventpro"
+                  className="group flex items-center justify-between rounded-xl border border-white/10 bg-white/5 px-4 py-3 hover:bg-white/10 transition"
+                >
                   <span className="font-medium">EventPro</span>
                   <span className="text-slate-400 group-hover:text-cyan-300 transition">View →</span>
                 </a>
