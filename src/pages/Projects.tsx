@@ -256,10 +256,12 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-7">
           {projects.map((p) => (
             <article
-              key={p.id}
-              id={p.id}
-              className="rounded-2xl border border-white/10 bg-white/5 p-6 md:p-7 shadow-[0_0_0_1px_rgba(255,255,255,0.02)] hover:bg-white/10 transition"
-            >
+            key={p.id}
+            id={p.id}
+            className={`rounded-2xl border border-white/10 bg-white/5 p-6 md:p-7 shadow-[0_0_0_1px_rgba(255,255,255,0.02)] hover:bg-white/10 transition
+              ${p.id === "ybs-platform" ? "md:col-span-2" : ""}
+            `}
+          >
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <h3 className="text-xl md:text-2xl font-semibold text-white">

@@ -107,28 +107,26 @@ const Home = () => {
             </div>
 
             <ul className="mt-5 space-y-3 text-slate-200">
-              {/* Keep Gyros Hero */}
-              <li>
-                <a
-                  href="/projects#gyros-hero"
-                  className="group flex items-center justify-between rounded-xl border border-white/10 bg-[#0b1726]/60 px-4 py-3 hover:bg-[#0b1726] transition"
-                >
-                  <span className="font-medium">Gyros Hero Website</span>
-                  <span className="text-slate-400 group-hover:text-cyan-300 transition">View →</span>
-                </a>
-              </li>
-
               {/* YBS Platform + Apps */}
               <li>
                 <a
-                  href="/projects#ybs-platform"
+                  href="https://apps.yourbizsuite.com"
                   className="group flex items-center justify-between rounded-xl border border-white/10 bg-[#0b1726]/60 px-4 py-3 hover:bg-[#0b1726] transition"
                 >
                   <span className="font-medium">YourBizSuite Platform (All Apps Hub)</span>
                   <span className="text-slate-400 group-hover:text-cyan-300 transition">View →</span>
                 </a>
               </li>
-
+              {/* Keep Gyros Hero */}
+              <li>
+                <a
+                  href="https://gyrosheros.com"
+                  className="group flex items-center justify-between rounded-xl border border-white/10 bg-[#0b1726]/60 px-4 py-3 hover:bg-[#0b1726] transition"
+                >
+                  <span className="font-medium">Gyros Hero Website</span>
+                  <span className="text-slate-400 group-hover:text-cyan-300 transition">View →</span>
+                </a>
+              </li>
               <li className="pt-1">
                 <div className="text-xs uppercase tracking-wider text-slate-400 px-1">
                   YBS Apps
