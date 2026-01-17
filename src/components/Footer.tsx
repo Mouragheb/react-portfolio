@@ -17,7 +17,7 @@ const Footer = () => {
             href="mailto:mousragheb@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-yellow-400 transition"
+            className="hover:text-gray-200 transition"
           >
             <FaEnvelope />
           </a>
@@ -25,7 +25,7 @@ const Footer = () => {
             href="https://github.com/Mouragheb"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-yellow-400 transition"
+            className="hover:text-gray-200 transition"
           >
             <FaGithub />
           </a>
@@ -33,7 +33,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/moustafa-ragheb-7b474aa6"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-yellow-400 transition"
+            className="hover:text-gray-200 transition"
           >
             <FaLinkedin />
           </a>
