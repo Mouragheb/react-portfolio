@@ -18,9 +18,9 @@ const Header = () => {
         {/* Desktop Nav */}
         <nav className="hidden md:flex space-x-6 text-sm font-medium">
           <Link to="/" className="hover:text-gray-200 transition">Home</Link>
-          <Link to="/projects" className="hover:text-gray-200 transition">Projects</Link>
-          <Link to="/about" className="hover:text-gray-200 transition">About</Link>
-          <Link to="/contact" className="hover:text-gray-200 transition">Contact</Link>
+          <Link to="/projects" className="hover:text-gray-400 transition">Projects</Link>
+          <Link to="/about" className="hover:text-gray-400 transition">About</Link>
+          <Link to="/contact" className="hover:text-gray-400 transition">Contact</Link>
         </nav>
 
         {/* Mobile Hamburger Icon */}
@@ -32,10 +32,10 @@ const Header = () => {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden bg-gray-900 text-center py-4 border-t border-gray-700 animate-fade-in-down">
-          <Link to="/" onClick={toggleMenu} className="block py-2 hover:text-gray-200">Home</Link>
-          <Link to="/projects" onClick={toggleMenu} className="block py-2 hover:text-gray-200">Projects</Link>
-          <Link to="/about" onClick={toggleMenu} className="block py-2 hover:text-gray-200">About</Link>
-          <Link to="/contact" onClick={toggleMenu} className="block py-2 hover:text-gray-200">Contact</Link>
+          <Link to="/" onClick={toggleMenu} className="block py-2 hover:text-gray-400">Home</Link>
+          <Link to="/projects" onClick={toggleMenu} className="block py-2 hover:text-gray-400">Projects</Link>
+          <Link to="/about" onClick={toggleMenu} className="block py-2 hover:text-gray-400">About</Link>
+          <Link to="/contact" onClick={toggleMenu} className="block py-2 hover:text-gray-400">Contact</Link>
         </div>
       )}
     </header>
